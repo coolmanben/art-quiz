@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.body{
+    background: url( ../assets/j-retrato-de-cardenal-rafael1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    height: 10vh;
+}
+
+.main{
+    height: 80vh;
+    width: 100%;
+}
+
+.footer {
+    height: 10vh;
+    width: 100%;
+}
+
+.footer-buttom{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.school-logo{
+    height: 100%;
+    width: 100px;
+    -webkit-mask-image: url(../assets/svg/rs_school_js.svg);
+    -webkit-mask-size: 70%;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    background-color: white;
+}
